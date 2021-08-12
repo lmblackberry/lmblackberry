@@ -1,0 +1,234 @@
+.productList{
+    flex: 4;
+}
+.productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+.productListItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+
+}
+.productListLink{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.productListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.productListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productListDelete{
+    color: red;
+    cursor: pointer;
+}
+.userOrders {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .userOrdersTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .userOrdersAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .userOrdersContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .userOrdersShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .userOrdersUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+  .userOrdersShowTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userOrdersShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .userOrdersShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .userOrdersShowusersname {
+    font-weight: 600;
+  }
+  
+  .userOrdersShowUserTitle {
+    font-weight: 300;
+  }
+  
+  .userOrdersShowBottom{
+      margin-top: 20px;
+  }
+  
+  .userOrdersShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+  }
+  
+  .userOrdersShowInfo{
+      display: flex;
+      align-items: center;
+      margin: 20px 0px;
+      color: #444;
+  }
+  
+  .userOrdersShowIcon{
+      font-size: 16px !important;
+  }
+  
+  .userOrdersShowInfoTitle{
+      margin-left: 10px;
+  }
+  
+  .userOrdersUpdateTitle{
+      font-size: 24px;
+      font-weight: 600;
+  }
+  
+  .userOrdersUpdateForm{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+  
+  .userOrdersUpdateItem{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  
+  .userOrdersUpdateItem>label{
+      margin-bottom: 5px;
+      font-size: 14px;
+  }
+  
+  .userOrdersUpdateInput{
+      border: none;
+      width: 250px;
+      height: 30px;
+      border-bottom: 1px solid gray;
+  }
+  
+  .userOrdersUpdateRight{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .userOrdersUpdateUpload{
+      display: flex;
+      align-items: center;
+  }
+  
+  .userOrdersUpdateImg{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-right: 20px;
+  }
+  
+  .userOrdersUpdateIcon{
+      cursor: pointer;
+  }
+  
+  .userOrdersUpdateButton{
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      background-color: darkblue;
+      color: white;
+      font-weight: 600;
+  
+  }
+  .userOrdersShowInfoAddress2{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+  }
+  .userOrdersShowInfoCity{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+  }
+  .userOrdersShowInfoZipcode{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 15px 15px;
+  }
+  .userOrdersUpdateInputState{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+  }
+  .userOrdersUpdateInputCountry{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+  }
+  .userOrdersShowInfoAddress{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+  }
+  

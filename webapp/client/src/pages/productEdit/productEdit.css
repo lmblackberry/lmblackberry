@@ -1,0 +1,235 @@
+.product {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .productAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .productTop {
+    display: flex;
+  }
+  
+  
+  .productTopRight {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  .productTopLeft {
+    flex: 2;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .productInfoImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .productName {
+    font-weight: 600;
+  }
+  .productInfoBottom{
+    display: flex;
+  
+  
+  }
+  .productInfoBottomLeft {
+    flex: 1;
+    margin-top: 10px;
+  
+  }
+  .productInfoBottomRight {
+    flex: 2;
+    margin-top: 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+  
+  .productInfoItem {
+    font-weight: 600;
+    display: flex;
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow:auto;
+    
+  
+  }
+  .productInfoTextarea{
+    border: none;
+    font-size: 10px;
+    width: 300px;
+    overflow:unset;
+    font-weight: 300;
+    text-align: left;
+    display: flex;
+    margin-left: 10px;
+  }
+  .productInfoValue {
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 10px;
+  
+  }
+  .productInfoItemSubRight{
+  margin: 0px;
+  }
+  .productInfoItemSubLeft{
+    width: 100px;
+  }
+  
+  
+  .productBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .productForm {
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  .productFormLeft {
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+    color: lightgray;
+    margin-bottom: 5px;
+  }
+  .productFormCenter{
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+    color: lightgray;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  .productFormLeft > input, .productFormCenter > input, .productFormRight > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+  }
+  
+  .productFormLeft >select{
+    margin-bottom: 10px;
+    border: none;
+    color: gray;
+  }
+  
+  .productFormRight >select{
+    margin-bottom: 10px;
+    border: none;
+    color: gray;
+  }
+  .productFormCenter >select{
+    margin-bottom: 10px;
+    border: none;
+    color: gray;
+  }
+  
+  
+  .productUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 20px 20px 20px 20px;
+  
+  }
+  
+  .productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 9px;
+    color: lightgray;
+    margin-bottom: 5px;
+  }
+  
+  .productUpload{
+    display: flex;
+    align-items: center;
+    color: gray;
+  }
+  
+  .productButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .productInfoNoteKey{
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .productInfoNoteValue{
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  .productInfoStatus{
+    font-weight: 600;
+    display: flex;
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow:auto;
+    margin-top: 20px;
+  }
+  .productCombined{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow:auto;
+  }
+  .packageInfoImg{
+    display: flex;
+    margin-top: 20px;
+    align-content: center;
+  }
+  .productInfoItemEdit{
+  
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+  }
+  .productInfoItemEdit>label{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
